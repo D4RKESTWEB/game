@@ -6,12 +6,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('cool.jpg');
+  background: url('cool.jpg') no-repeat center center;
+  background-size: cover; 
 }
 .wrapper {
   width: 420px;
