@@ -14,8 +14,10 @@
   background: url('cool.jpg') no-repeat center center;
   background-size: cover; 
 }
+
 .wrapper {
   width: 420px;
+  height: 450px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, .2);
   backdrop-filter: blur(20px);
